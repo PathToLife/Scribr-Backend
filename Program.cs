@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using ScribrAPI.Helper;
 
 namespace ScribrAPI
 {
@@ -14,6 +15,8 @@ namespace ScribrAPI
     {
         public static void Main(string[] args)
         {
+            //YouTubeHelper.testProgram();
+            //YouTubeHelper.GetTranscriptions("7_1OWdNDNLg");
             CreateWebHostBuilder(args).Build().Run();
         }
 
